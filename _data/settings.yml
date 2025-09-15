@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Board
+  site_title: Max Mustermann
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -10,15 +10,15 @@ menu_settings:
   menu_items:
     - title: 'Projects'
       url: '/'
-    - title: 'Blog'
-      url: '/blog/'
+    #- title: 'Blog'
+    #  url: '/blog/'
     - title: 'About'
       url: '/about'
     - title: 'Contact'
       url: '/contact'
 
 footer_settings:
-  footer_tagline: Board – a stylish full-width masonry grid Jekyll theme
+  footer_tagline: Max Mustermann - Grafik Design und Animation
 
 grid_settings:
   overlay_opacity: 0.8
@@ -60,22 +60,25 @@ social_settings:
   linkedin_url: ''
 
 color_settings:
-  background_color: '#ffffff'
-  background_alt_color: '#f4f5f6'
-  text_dark_color: '#2A2F36'
-  text_medium_color: '#6C7A89'
-  text_light_color: '#ABB7B7'
-  accent_color: '#4ecdc4'
-  border_color: '#dddddd'
-  overlay_background_color: '#4ecdc4'
-  overlay_text_color: '#ffffff'
-  overlay_accent_color: '#2A2F36'
-  error_color: '#D64541'
+  background_color: '#FFFFFF'
+  background_alt_color: '#F7F8FA'
+  text_dark_color: '#111827'
+  text_medium_color: '#6B7280'
+  text_light_color: '#9CA3AF'
+  accent_color: '#6366F1'
+  border_color: '#E5E7EB'
+  overlay_background_color: '#111827'
+  overlay_text_color: '#FFFFFF'
+  overlay_accent_color: '#6366F1'
+  error_color: '#DC2626'
+
+
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Poppins:300,500" rel="stylesheet">'
-  title_font: '"Poppins", sans-serif'
-  body_font: '"Poppins", sans-serif'
+  # font_embed: '<link href="https://fonts.googleapis.com/css?family=Poppins:300,500" rel="stylesheet">'
+  font_embed: '<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">'
+  title_font: '"DM Sans", sans-serif'
+  body_font: '"DM Sans", sans-serif'
   regular_weight: 300
   bold_weight: 500
   site_title:

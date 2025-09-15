@@ -33,12 +33,14 @@ You can also add blockquotes, which are shown at a larger width to help break up
 > “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
 
 The theme also supports markdown tables:
-
+{% comment %}
 | Item                 | Author        | Supports tables? | Price |
 |----------------------|---------------|------------------|-------|
 | Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   |
 | Index Jekyll Theme   | Jekyll Themes | Yes              | $49   |
 | Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |
+
+{% endcomment %}
 
 And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
 
@@ -62,21 +64,6 @@ Here's a really neat custom feature we added – galleries:
 	<img src="../images/demo/square-04.jpg">
 	<img src="../images/demo/landscape-05.jpg">
 </div>
-
-Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
-
-```html
-<div class="gallery" data-columns="3">
-    <img src="/images/demo/square-01.jpg">
-    <img src="/images/demo/portrait-02.jpg">
-    <img src="/images/demo/square-02.jpg">
-    <img src="/images/demo/square-03.jpg">
-    <img src="/images/demo/square-04.jpg">
-    <img src="/images/demo/landscape-05.jpg">
-</div>
-```
-
-*See what we did there? Code and syntax highlighting is built-in too!*
 
 Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
 
@@ -102,10 +89,8 @@ Videos are an awesome way to show off your work in a more engaging and personal 
 
 ---
 
-## Pretty cool, huh?
+## Get in contact
 
-We've packed this theme with powerful features to show off your work.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
-Why not put them to use on your new portfolio?
-
-<a href="https://jekyllthemes.io/theme/board-portfolio-jekyll-theme" class="button button--large">Get This Theme</a>
+<a href="" class="button button--large">Contact now </a>
